@@ -1,0 +1,501 @@
+@media(max-width:1250px){
+    .Petitioners{
+        font-size: 85%;
+    }
+    .Petitioners .header .f1 img{
+        height: 63.75%;
+        width: 3.4%;
+    }
+}
+
+@media(max-width:1100px){
+    .Petitioners{
+        font-size: 74.2%;
+    }
+    .Petitioners .header .f1 img{
+        height: 55.515%;
+        width: 2.97%;
+    }
+}
+
+@media(max-width:960px){
+    .Petitioners{
+        font-size: 64.7%;
+    }
+    .Petitioners .header .f1 img{
+        height: 47.8%;
+        width: 2.59%;
+    }
+}
+
+.Petitioners{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    /* overflow: unset; */
+}
+
+.Petitioners .header{
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    top: 0%;
+    box-shadow: 5px -1px 8px #888888;
+}
+
+.Petitioners .header h2{
+    position: absolute;
+    font-size: 157.5%;
+    left: 7%;
+    top: -5%;
+}
+
+.Petitioners .header .conn1{
+    position: absolute;
+    color: black;
+    left: 69%;
+    top: 30%;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .header .conn2{
+    position: absolute;
+    color: black;
+    left: 75.3%;
+    top: 30%;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .header .conn3{
+    position: absolute;
+    color: black;
+    left: 81.5%;
+    top: 30%;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .header .conn4{
+    position: absolute;
+    color: black;
+    left: 89.3%;
+    top: 30%;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-weight:bold;
+}
+
+.Petitioners .header .conn4 i{
+    position: absolute;
+    color: black;
+    left: 105%;
+    top: -20%;
+    font-size: 160%;
+}
+
+.Petitioners .header .sign{
+    position: absolute;
+    width: 5%;
+    height: 50%;
+    right: 3.4%;
+    top: 21%;
+    background-color: rgb(34, 34, 245);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Petitioners .header .f1 img{
+    position: absolute;
+    left: 2%;
+    top: 20%; 
+}
+
+.Petitioners .header .search{
+    position: absolute;
+    width: 13%;
+    height: 45%;
+    left: 85.2%;
+    top: 21%; 
+    border-radius: 5px;
+    font-size: 105%;
+    border:color(rgb(34, 34, 245));
+}
+
+.Petitioners .header .sbut{
+    position: absolute;
+    width: 2%;
+    height: 45%;
+    right: 1.1%;
+    top: 21%; 
+    border:none;
+    outline: none;
+    font-size: 157.5%;
+    background: transparent;
+    border:color(rgb(34, 34, 245));
+    cursor: pointer;
+}
+
+.Petitioners .header .sbut i{
+    position: absolute;
+    font-size: 105%;
+    right: 2%;
+    top: 21%; 
+}
+
+.Petitioners .body{
+    position: absolute;
+    width: 100%;
+    height: 68%;
+    top: 9%;
+}
+
+.Petitioners .body .Sel1 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 30%;
+}
+
+.Petitioners .body .Sel1 .l1{
+    position: absolute;
+    top: -70%;
+    left: 0%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .body .Sel2 {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 30%;
+}
+
+.Petitioners .body .Sel2 .l2{
+    position: absolute;
+    top: -70%;
+    left: 0%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .body .Sel3 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 30%;
+}
+
+.Petitioners .body .Sel3 .l3{
+    position: absolute;
+    top: -70%;
+    left: 2%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .body .Sel4{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 30%;
+}
+
+.Petitioners .body .Sel4 .l4{
+    position: absolute;
+    top: -70%;
+    left: 2%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .body .Sub .but{
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    height: 8%;
+    top: 63%;
+    background-color: rgb(34, 34, 245);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.Petitioners .body .Out{
+    position: absolute;
+    left: 35.2%;
+    width: 29%;
+    height: 6%;
+    top: 83%;
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.Petitioners .body .Out .l1{
+    position: absolute;
+    top: -80%;
+    left: -1.4%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Petitioners .footer{
+    position: absolute;
+    width: 100%;
+    height: 21%;
+    top: 77.5%;
+}
+
+.Petitioners .footer .l1{
+    position: absolute;
+    font-size: 95%;
+    left: 2%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.Petitioners .footer .b1{
+    position: absolute;
+    font-size: 125%;
+    left: 2%;
+    top: 30%;
+    color: black;
+}
+
+.Petitioners .footer .b1:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.Petitioners .footer .b2{
+    position: absolute;
+    font-size: 125%;
+    left: 4.1%;
+    top: 30%;
+    color: black;
+}
+
+.Petitioners .footer .b2:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.Petitioners .footer .b3{
+    position: absolute;
+    font-size: 125%;
+    left: 6.2%;
+    top: 30%;
+    color: black;
+}
+
+.Petitioners .footer .b3:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.Petitioners .footer .b4{
+    position: absolute;
+    font-size: 125%;
+    left: 8.3%;
+    top: 30%;
+    color: black;
+}
+
+.Petitioners .footer .b4:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.Petitioners .footer .l2{
+    position: absolute;
+    font-size: 115%;
+    left: 57.5%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.Petitioners .footer .l21{
+    position: absolute;
+    font-size: 90%;
+    left: 57.5%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l21:hover{
+    text-decoration: underline;
+}
+
+.Petitioners .footer .l22{
+    position: absolute;
+    font-size: 90%;
+    left: 57.5%;
+    top: 42%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l3{
+    position: absolute;
+    font-size: 115%;
+    left: 68%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.Petitioners .footer .l31{
+    position: absolute;
+    font-size: 90%;
+    left: 68%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l31:hover{
+    text-decoration: underline;
+}
+
+.Petitioners .footer .l32{
+    position: absolute;
+    font-size: 90%;
+    left: 68%;
+    top: 40%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l32:hover{
+    text-decoration: underline;
+}
+
+.Petitioners .footer .l33{
+    position: absolute;
+    font-size: 90%;
+    left: 68%;
+    top: 53%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l33:hover{
+    text-decoration: underline;
+}
+
+.Petitioners .footer .l4{
+    position: absolute;
+    font-size: 115%;
+    left: 77.5%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.Petitioners .footer .l41{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l41:hover{
+    text-decoration: underline;
+}
+
+.Petitioners .footer .l42{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 40%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l42:hover{
+    text-decoration: underline;
+}
+
+
+.Petitioners .footer .l43{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 53%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l43:hover{
+    text-decoration: underline;
+}
+
+
+.Petitioners .footer .l44{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 67%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l45:hover{
+    text-decoration: underline;
+}
+
+
+.Petitioners .footer .l5{
+    position: absolute;
+    font-size: 115%;
+    left: 92%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.Petitioners .footer .l51{
+    position: absolute;
+    font-size: 90%;
+    left: 92%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l51:hover{
+    text-decoration: underline;
+}
+
+
+.Petitioners .footer .l52{
+    position: absolute;
+    font-size: 90%;
+    left: 92%;
+    top: 40%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Petitioners .footer .l52:hover{
+    text-decoration: underline;
+}
+
+
+
+

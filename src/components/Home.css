@@ -1,0 +1,459 @@
+@media(max-width:1250px){
+    .homepage{
+        font-size: 85%;
+    }
+    .homepage .header .f1 img{
+        height: 63.75%;
+        width: 3.4%;
+    }
+}
+
+@media(max-width:1100px){
+    .homepage{
+        font-size: 74.2%;
+    }
+    .homepage .header .f1 img{
+        height: 55.515%;
+        width: 2.97%;
+    }
+}
+
+@media(max-width:960px){
+    .homepage{
+        font-size: 64.7%;
+    }
+    .homepage .header .f1 img{
+        height: 47.8%;
+        width: 2.59%;
+    }
+}
+
+.homepage{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.homepage .header{
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    top: 0%;
+    box-shadow: 5px -1px 8px #888888;
+}
+
+.homepage .header h2{
+    position: absolute;
+    font-size: 157.5%;
+    left: 7%;
+    top: -5%;
+}
+
+.homepage .header .conn1{
+    position: absolute;
+    color: black;
+    left: 67%;
+    top: 30%;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.homepage .header .conn2{
+    position: absolute;
+    color: black;
+    left: 73.3%;
+    top: 30%;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.homepage .header .conn3{
+    position: absolute;
+    color: black;
+    left: 79%;
+    top: 30%;
+    text-decoration-line: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.homepage .header .sign{
+    position: absolute;
+    width: 5%;
+    height: 50%;
+    right: 3.4%;
+    top: 21%;
+    background-color: rgb(34, 34, 245);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.homepage .header .f1 img{
+    position: absolute;
+    left: 2%;
+    top: 20%; 
+}
+
+.homepage .header .search{
+    position: absolute;
+    width: 13%;
+    height: 45%;
+    left: 85.2%;
+    top: 21%; 
+    border-radius: 5px;
+    font-size: 105%;
+    border:color(rgb(34, 34, 245));
+}
+
+.homepage .header .sbut{
+    position: absolute;
+    width: 2%;
+    height: 45%;
+    right: 1.1%;
+    top: 21%; 
+    border:none;
+    outline: none;
+    font-size: 157.5%;
+    background: transparent;
+    border:color(rgb(34, 34, 245));
+    cursor: pointer;
+}
+
+.homepage .header .sbut i{
+    position: absolute;
+    font-size: 105%;
+    right: 2%;
+    top: 21%; 
+}
+
+.homepage .body{
+    position: absolute;
+    width: 100%;
+    height: 68%;
+    top: 9%;
+}
+
+.homepage .body .body1{
+    position: absolute;
+    top: 29%;
+    height: 50%;
+    left: 16%;
+    width: 14%;
+}
+
+.homepage .body1 .f2 img{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.homepage .body1 .conn4{
+    position: absolute;
+    color: black;
+    left: 21.2%;
+    top: 82%;
+    text-decoration-line: none;
+    font-size: 135%;
+    font-weight: bold;
+}
+
+.homepage .body .body2{
+    position: absolute;
+    top: 29%;
+    height: 50%;
+    left: 43%;
+    width: 14%;
+}
+
+.homepage .body2 .f3 img{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.homepage .body2 .conn5{
+    position: absolute;
+    color: black;
+    left: 23%;
+    top: 82%;
+    text-decoration-line: none;
+    font-size: 135%;
+    font-weight: bold;
+}
+
+.homepage .body .body3{
+    position: absolute;
+    top: 29%;
+    height: 50%;
+    left: 71%;
+    width: 14%;
+}
+
+.homepage .body3 .f4 img{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.homepage .body3 .conn6{
+    position: absolute;
+    color: black;
+    left: 32%;
+    top: 82%;
+    text-decoration-line: none;
+    font-size: 135%;
+    font-weight: bold;
+}
+
+.homepage .footer{
+    position: absolute;
+    width: 100%;
+    height: 21%;
+    top: 77.5%;
+}
+
+.homepage .footer .l1{
+    position: absolute;
+    font-size: 95%;
+    left: 2%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.homepage .footer .b1{
+    position: absolute;
+    font-size: 125%;
+    left: 2%;
+    top: 30%;
+    color: black;
+}
+
+.homepage .footer .b1:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.homepage .footer .b2{
+    position: absolute;
+    font-size: 125%;
+    left: 4.1%;
+    top: 30%;
+    color: black;
+}
+
+.homepage .footer .b2:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.homepage .footer .b3{
+    position: absolute;
+    font-size: 125%;
+    left: 6.2%;
+    top: 30%;
+    color: black;
+}
+
+.homepage .footer .b3:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.homepage .footer .b4{
+    position: absolute;
+    font-size: 125%;
+    left: 8.3%;
+    top: 30%;
+    color: black;
+}
+
+.homepage .footer .b4:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.homepage .footer .l2{
+    position: absolute;
+    font-size: 115%;
+    left: 57.5%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.homepage .footer .l21{
+    position: absolute;
+    font-size: 90%;
+    left: 57.5%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l21:hover{
+    text-decoration: underline;
+}
+
+.homepage .footer .l22{
+    position: absolute;
+    font-size: 90%;
+    left: 57.5%;
+    top: 42%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l3{
+    position: absolute;
+    font-size: 115%;
+    left: 68%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.homepage .footer .l31{
+    position: absolute;
+    font-size: 90%;
+    left: 68%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l31:hover{
+    text-decoration: underline;
+}
+
+.homepage .footer .l32{
+    position: absolute;
+    font-size: 90%;
+    left: 68%;
+    top: 40%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l32:hover{
+    text-decoration: underline;
+}
+
+.homepage .footer .l33{
+    position: absolute;
+    font-size: 90%;
+    left: 68%;
+    top: 53%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l33:hover{
+    text-decoration: underline;
+}
+
+.homepage .footer .l4{
+    position: absolute;
+    font-size: 115%;
+    left: 77.5%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.homepage .footer .l41{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l41:hover{
+    text-decoration: underline;
+}
+
+.homepage .footer .l42{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 40%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l42:hover{
+    text-decoration: underline;
+}
+
+
+.homepage .footer .l43{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 53%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l43:hover{
+    text-decoration: underline;
+}
+
+
+.homepage .footer .l44{
+    position: absolute;
+    font-size: 90%;
+    left: 77.5%;
+    top: 67%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l45:hover{
+    text-decoration: underline;
+}
+
+
+.homepage .footer .l5{
+    position: absolute;
+    font-size: 115%;
+    left: 92%;
+    top: 10%;
+    color: black;
+    font-weight: bold;
+}
+
+.homepage .footer .l51{
+    position: absolute;
+    font-size: 90%;
+    left: 92%;
+    top: 28%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l51:hover{
+    text-decoration: underline;
+}
+
+
+.homepage .footer .l52{
+    position: absolute;
+    font-size: 90%;
+    left: 92%;
+    top: 40%;
+    color: black;
+    text-decoration-line: none;
+}
+
+.homepage .footer .l52:hover{
+    text-decoration: underline;
+}
+
+
+
+
