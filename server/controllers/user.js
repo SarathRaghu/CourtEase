@@ -8,7 +8,7 @@ try {
     console.log(req.body);
     const salt = await bcrypt.genSalt();
     const passwordHash = await bcrypt.hash(password, salt);
-    const newUser = new User({
+    const newUser = new user({
       username,
       password: passwordHash,
       email,
@@ -21,7 +21,6 @@ try {
 };
 
 
-/*Logging in */
 
 const login = async (req, res)=>{
     try{

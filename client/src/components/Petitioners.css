@@ -156,7 +156,7 @@
 
 .Petitioners .body .Sel1 {
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 15%;
     width: 30%;
 }
@@ -171,7 +171,7 @@
 
 .Petitioners .body .Sel2 {
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 55%;
     width: 30%;
 }
@@ -186,7 +186,7 @@
 
 .Petitioners .body .Sel3 {
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 15%;
     width: 30%;
 }
@@ -201,7 +201,7 @@
 
 .Petitioners .body .Sel4{
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 55%;
     width: 30%;
 }
@@ -214,12 +214,27 @@
     font-weight: bold;
 }
 
+.Petitioners .body .Sel5{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    width: 30%;
+}
+
+.Petitioners .body .Sel5 .l5{
+    position: absolute;
+    top: -70%;
+    left: 2%;
+    width: 100%;
+    font-weight: bold;
+}
+
 .Petitioners .body .Sub .but{
     position: absolute;
     left: 40%;
     width: 20%;
     height: 8%;
-    top: 63%;
+    top: 65%;
     background-color: rgb(34, 34, 245);
     border: none;
     outline: none;

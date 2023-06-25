@@ -23,7 +23,7 @@ function Login() {
                     console.log(res);
                     if (res.status===200) {
                         history("/Petitioners", { state: { id: email } })
-                        alert('Successfully Logged In')
+                        // alert('Successfully Logged In')
                     }
                     else if (res.data === "notexist") {
                         alert("Incorrect Email or Password")
@@ -71,7 +71,7 @@ function Login() {
                 <a className="b1" href="https://www.facebook.com"><i class='bx bxl-facebook-square'></i></a>
                 <a className="b2" href="https://www.instagram.com"><i class='bx bxl-instagram' ></i></a>
                 <a className="b3" href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin-square'></i></a>
-                <a className="b4" href="https://www.linkedin.com/feed/"><i class='bx bxl-twitter'></i></a>
+                <a className="b4" href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
                 <label className="l2">Head Office</label>
                 <Link className="l21" to="/Region">Regional Office</Link>
                 <label className="l22">New Delhi-11001</label>
