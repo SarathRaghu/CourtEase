@@ -16,11 +16,12 @@ function Login() {
         e.preventDefault();
 
         try {
-            await axios.post("http://localhost:3000/", {
+            await axios.post("http://localhost:3002/", {
                 email, password
             })
                 .then(res => {
-                    if (res.data === "exist") {
+                    console.log(res);
+                    if (res.status===200) {
                         history("/Petitioners", { state: { id: email } })
                         alert('Successfully Logged In')
                     }
